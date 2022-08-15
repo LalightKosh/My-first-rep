@@ -11,21 +11,19 @@ const App = () => {
           height="32px"
           alt="logo"
         />
-        <div classnames="title">Научиться учиться</div>
-        <div classnames="subtitle">
+        <h1 classnames="title">Научиться учиться</h1>
+        <p classnames="subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-        </div>
-        {/* <div class = "link">Узнать</div> */}
-        <div class="main-illustration">
-          <img
-            src="./src/images/two_again.png"
-            height="608px"
-            width="765px"
-            alt="Family_picture"
-          />
-        </div>
-        <div class="header__square-pic"></div>
+          <a href="#">Узнать</a>
+        </p>
+        <img
+          src="./src/images/two_again.png"
+          height="608px"
+          width="765px"
+          alt="Family_picture"
+        />
+        <div class="header__square-pic" />
       </header>
 
       <div class="content">
