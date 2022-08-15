@@ -1,4 +1,6 @@
 import "./index.css";
+import headerLogo from "./images/logo_place_header.svg";
+import headerImage from "./images/two_again.png";
 
 const App = () => {
   return (
@@ -6,7 +8,7 @@ const App = () => {
       <header className="header">
         <img
           className="header__logo"
-          src="/src/images/logo_place_header.svg"
+          src={headerLogo}
           width="228px"
           height="32px"
           alt="logo"
@@ -15,10 +17,11 @@ const App = () => {
         <p classnames="subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#">Узнать</a>
+          <a href="https://en.wikipedia.org/wiki/Wiki">Узнать</a>
         </p>
         <img
-          src="./src/images/two_again.png"
+          className="header__image"
+          src={headerImage}
           height="608px"
           width="765px"
           alt="Family_picture"
