@@ -1,4 +1,4 @@
-.page {
+.app {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -29,12 +29,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-.logo {
-  z-index: 2;
-  margin-left: 64px;
-  margin-top: 30px;
 }
 
 .title {
@@ -68,14 +62,4 @@
   position: absolute;
   right: 0;
   bottom: 0;
-}
-
-.square-pic {
-  z-index: 1;
-  height:568px;
-  width:568px;
-  position:absolute;
-  background-color: #2f80ed;
-  right: 0;
-  top: 64px;
 }
