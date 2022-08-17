@@ -1,4 +1,6 @@
 import "./index.css";
+import headerLogo from "./images/logo_place_header.svg";
+import headerImage from "./images/two_again.png";
 
 const App = () => {
   return (
@@ -6,26 +8,25 @@ const App = () => {
       <header className="header">
         <img
           className="header__logo"
-          src="/src/images/logo_place_header.svg"
+          src={headerLogo}
           width="228px"
           height="32px"
           alt="logo"
         />
-        <div classnames="title">Научиться учиться</div>
-        <div classnames="subtitle">
+        <h1 classnames="title">Научиться учиться</h1>
+        <p classnames="subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-        </div>
-        {/* <div class = "link">Узнать</div> */}
-        <div class="main-illustration">
-          <img
-            src="./src/images/two_again.png"
-            height="608px"
-            width="765px"
-            alt="Family_picture"
-          />
-        </div>
-        <div class="header__square-pic"></div>
+          <a href="https://en.wikipedia.org/wiki/Wiki">Узнать</a>
+        </p>
+        <img
+          className="header__image"
+          src={headerImage}
+          height="608px"
+          width="765px"
+          alt="Family_picture"
+        />
+        <div class="header__square-pic" />
       </header>
 
       <div class="content">

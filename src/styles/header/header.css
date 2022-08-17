@@ -1,5 +1,6 @@
 
 .header {
+    position: relative;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
@@ -8,21 +9,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* выше установили ограничения для секции */
-  }
+}
 
-  
 .header__logo {
     margin-top: 30px;
-  }
-  
-  /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-  .header__square-pic {
-    z-index: 1;
+}
+
+.header__square-pic {
+    z-index: 0;
     height:568px;
     width:568px;
     position:absolute;
     background-color: #2f80ed;
     right: 0;
     top: 64px;
-  }
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
