@@ -31,3 +31,25 @@
   right: 0;
   bottom: 0;
 }
+
+.header__title {
+  position:relative;
+  width:730px;
+  line-height:96px;
+  font-size: 102px;
+  font-weight:600;
+}
+
+.header__subtitle {
+  z-index: 2;
+  position:relative;
+  width: 388px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+
+}
+
+.header__link {
+  margin-left: 5px;
+}

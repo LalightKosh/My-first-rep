@@ -13,11 +13,13 @@ const App = () => {
           height="32px"
           alt="logo"
         />
-        <h1 classnames="title">Научиться учиться</h1>
-        <p classnames="subtitle">
+        <h1 className="header__title">Научиться учиться</h1>
+        <p className="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="https://en.wikipedia.org/wiki/Wiki">Узнать</a>
+          <a href="https://en.wikipedia.org/wiki/Wiki" className="header__link">
+            Узнать
+          </a>
         </p>
         <img
           className="header__image"
@@ -29,13 +31,29 @@ const App = () => {
         <div class="header__square-pic" />
       </header>
 
-      <div class="content">
-        <div class="description">
-          <div class="two-columns">
-            <div class="brief">Главные проблемы в обучении</div>
+      <section className="description">
+        <div className="description__two-columns">
+          <h3 className="description__header">Главные проблемы в обучении</h3>
+          <div className="description__main-text">
+            <p className="description__text">
+              Ни в школе, ни в институте нас не учат тому, как правильно изучать
+              материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся
+              решать однообразные задачи, чтобы лучше сдать тест, но часто в
+              итоге это не дает нам реального знания. Зубрежка быстро
+              выветривается и не приносит пользы.
+            </p>
+            <p className="description__text">
+              <span className="span-accent">Вывод:</span> учиться тоже нужно
+              уметь, но почему-то этому мало где учат. Что с этим делать?
+            </p>
+            <p className="description__text">
+              Конкретные техники и упражнения помогают изменить подход к
+              обучению, сделать его эффективным и захватывающим. Эти же техники
+              применяются на примере обучения в Практикуме.
+            </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
