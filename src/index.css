@@ -1,4 +1,8 @@
 @import "./styles/normalize.css";
 
 @import "./styles/header/header.css";
-@import "./styles/content/description.css"
+@import "./styles/content/description.css";
+@import "./styles/content/digits.css";
+@import "./styles/content/feynman.css";
+@import "./styles/content/kaufman.css";
+@import "./styles/footer/footer.css";

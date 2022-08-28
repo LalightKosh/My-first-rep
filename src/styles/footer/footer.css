@@ -1,0 +1,19 @@
+.footer {
+    min-height: 350px;
+    background-color: #1f1f1f;
+    padding: 60px 0 0 0;
+    margin:auto;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+}
