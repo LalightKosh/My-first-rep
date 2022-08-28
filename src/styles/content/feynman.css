@@ -1,5 +1,9 @@
 .feynman {
-    padding: 100px 0 0 0;
+    background-image: url("/src/images/feynman.png");
+    background-repeat: no-repeat;
+    background-size: 867px 637px;
+    background-position: 0% 100%;
+    min-height: 890px;
 }
 
 .feynman__title {
@@ -9,6 +13,7 @@
     font-weight: 600;
     margin: auto;
     text-align: center;
+    padding: 100px 0 0 0;
 }
 
 .feynman__subtitle {
@@ -25,6 +30,7 @@
 }
 
 .feynman__link {
+    position: relative;
     top: 50%;
     right: 0
 }

@@ -2,8 +2,7 @@ import "./index.css";
 import headerLogo from "./images/logo_place_header.svg";
 import footerLogo from "./images/logo_place_footer.svg";
 import headerImage from "./images/two_again.png";
-import feynman from "./images/feynman.png";
-import kaufman_triangle from "./images/kaufman-triangle.svg";
+import kaufmanTriangle from "./images/kaufman-triangle.svg";
 
 const App = () => {
   return (
@@ -58,27 +57,27 @@ const App = () => {
         </div>
       </section>
       <section className="digits">
-        <h3 className="digits__title">Цифры и факты</h3>
-        <h2 className="digits__subtitle">Про учебу и мозг</h2>
+        <h2 className="digits__title">Цифры и факты</h2>
+        <h3 className="digits__subtitle">Про учебу и мозг</h3>
         <table className="digits__table">
           <tr>
             <td>
-              <p className="table__title">86 миллиардов</p>
+              <h4 className="table__title">86 миллиардов</h4>
               <p className="table__text">Число нейронов в мозге человека</p>
             </td>
             <td>
-              <p className="table__title">2.1 миллиарда</p>
+              <h4 className="table__title">2.1 миллиарда</h4>
               <p className="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
               <p className="bank">Всемирный Банк, 2017</p>
             </td>
             <td>
-              <p className="table__title">1000 терабайт</p>
+              <h4 className="table__title">1000 терабайт</h4>
               <p className="table__text">Объём памяти человека</p>
             </td>
             <td>
-              <p className="table__title">500 триллионов</p>
+              <h4 className="table__title">500 триллионов</h4>
               <p className="table__text">
                 Число ответственных за обучение нервных синапсов у взрослого
                 человека
@@ -87,7 +86,7 @@ const App = () => {
           </tr>
           <tr>
             <td>
-              <p className="table__title">420 миллионов</p>
+              <h4 className="table__title">420 миллионов</h4>
               <p className="table__text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
@@ -95,15 +94,15 @@ const App = () => {
               <p className="bank">Всемирный Банк, 2017</p>
             </td>
             <td>
-              <p className="table__title">17–20 лет</p>
+              <h4 className="table__title">17–20 лет</h4>
               <p className="table__text">Пик обучаемости</p>
             </td>
             <td>
-              <p className="table__title">1885 год</p>
+              <h4 className="table__title">1885 год</h4>
               <p className="table__text">Открытие кривой забывания</p>
             </td>
             <td>
-              <p className="table__title">1889 год</p>
+              <h4 className="table__title">1889 год</h4>
               <p className="table__text">Открытие условного рефлекса</p>
             </td>
           </tr>
@@ -112,95 +111,86 @@ const App = () => {
       <section className="feynman" height="890px">
         <h1 className="feynman__title">Метод Фейнмана</h1>
         <h2 className="feynman__subtitle">Выучить и не забыть.</h2>
-        <img
-          className="feynman__portrait"
-          src={feynman}
-          width="867px"
-          height="637px"
-          alt="Portrait of Feynman"
-        />
         <a href="https://en.wikipedia.org/wiki/Wiki" className="feynman__link">
           Подробнее
         </a>
       </section>
       <section className="kaufman">
-        <h3 className="kaufman__title">Принципы обучения</h3>
-        <h2 className="kaufman__subtitle">От Джоша Кауфмана</h2>
+        <h2 className="kaufman__title">Принципы обучения</h2>
+        <h3 className="kaufman__subtitle">От Джоша Кауфмана</h3>
         <table className="kaufman__table">
           <tr>
             <td>
-              <p className="kaufman__table__title">1</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">1</h4>
+              <p className="kaufman__table-text">
                 Выберите привлекательный проект.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">2</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">2</h4>
+              <p className="kaufman__table-text">
                 Сосредоточьтесь на каком-то одном навыке.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">3</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">3</h4>
+              <p className="kaufman__table-text">
                 Определите целевой уровень мастерства.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">4</p>
-              <p className="kaufman__table__text">
-                Разбейте навык на элементы.
-              </p>
+              <h4 className="kaufman__table-title">4</h4>
+              <p className="kaufman__table-text">Разбейте навык на элементы.</p>
             </td>
             <td>
-              <p className="kaufman__table__title">5</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">5</h4>
+              <p className="kaufman__table-text">
                 Приготовьте всё необходимое для занятий.
               </p>
             </td>
           </tr>
           <tr>
             <td>
-              <p className="kaufman__table__title">6</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">6</h4>
+              <p className="kaufman__table-text">
                 Устраните препятствия для занятий.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">7</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">7</h4>
+              <p className="kaufman__table-text">
                 Выделите специальное время для занятий.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">8</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">8</h4>
+              <p className="kaufman__table-text">
                 Создайте быстрые петли обратной связи.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">9</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">9</h4>
+              <p className="kaufman__table-text">
                 Занимайтесь по расписанию, короткими интенсивными интервалами.
               </p>
             </td>
             <td>
-              <p className="kaufman__table__title">10</p>
-              <p className="kaufman__table__text">
+              <h4 className="kaufman__table-title">10</h4>
+              <p className="kaufman__table-text">
                 Уделяйте внимание количеству и скорости.
               </p>
             </td>
           </tr>
         </table>
         <img
-          className="kaufman_triangle"
-          src={kaufman_triangle}
+          className="kaufmanTriangle"
+          src={kaufmanTriangle}
           height="877px"
           width="877px"
           alt="Blue Triangle"
         />
       </section>
-      <section className="footer">
+      <footer className="footer">
         <div className="columns">
           <div className="column__content">
             <div className="content__copyright">
@@ -211,27 +201,39 @@ const App = () => {
                 height="32px"
                 alt="logo"
               />
-              <p className="copyright__author">&copy; Виктор Абанькин</p>
+              <p className="copyright__author">© Виктор Абанькин</p>
             </div>
-            <div className="column__content__info">
+            <div className="column__content-info">
               <p className="content__column-heading">О практикуме</p>
               <div className="column-links">
-                <p className="footer__links">Главная</p>
-                <p className="footer__links">Концепция</p>
-                <p className="footer__links">Наставники</p>
+                <a href="google.com" className="footer__links">
+                  Главная
+                </a>
+                <a href="google.com" className="footer__links">
+                  Концепция
+                </a>
+                <a href="google.com" className="footer__links">
+                  Наставники
+                </a>
               </div>
             </div>
-            <div className="column__content__social">
+            <div className="column__content-social">
               <p className="content__social-heading">Соцсети</p>
               <div className="column-links">
-                <p className="footer__social-links">Facebook</p>
-                <p className="footer__social-links">Вконтакте</p>
-                <p className="footer__social-links">Instagram</p>
+                <a href="facebook.com" className="footer__social-links">
+                  Facebook
+                </a>
+                <a href="vk.ru" className="footer__social-links">
+                  Вконтакте
+                </a>
+                <a href="instagram.com" className="footer__social-links">
+                  Instagram
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </footer>
     </div>
   );
 };
