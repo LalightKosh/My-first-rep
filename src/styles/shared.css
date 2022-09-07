@@ -1,0 +1,23 @@
+.transparent-link:hover {
+    opacity: 0.5;
+}
+
+.section-title {
+    line-height: 1.15em;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 100px 0 0 0;
+}
+
+.section-subtitle {
+    line-height: 34px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    width: 60%;
+    margin:auto;
+    padding: 20px 0 60px 0;
+}

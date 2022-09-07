@@ -2,7 +2,8 @@ import "./index.css";
 import headerLogo from "./images/logo_place_header.svg";
 import footerLogo from "./images/logo_place_footer.svg";
 import headerImage from "./images/two_again.png";
-import kaufmanTriangle from "./images/kaufman-triangle.svg";
+import triangleImage from "./images/kaufman-triangle.svg";
+import attentionImage from "./images/cards-attention.png";
 
 const App = () => {
   return (
@@ -19,8 +20,8 @@ const App = () => {
         <p className="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="https://en.wikipedia.org/wiki/Wiki" className="header__link">
-            Узнать
+          <a href="https://en.wikipedia.org/wiki/Wiki"  className="header__link transparent-link">
+            Узнать →
           </a>
         </p>
         <img
@@ -32,6 +33,68 @@ const App = () => {
         />
         <div class="header__square-pic" />
       </header>
+
+      <section className="techniques">
+        <h2 className="section-title">Техники обучения</h2>
+          <h3 className = "section-subtitle">Пять практик от Барбары Оакли</h3>
+          <ul className="techniques__cards">
+            <li className = "techniques__cards-item">
+              <img
+                className="techniques__card-image"
+                src={attentionImage}
+                width="160px"
+                height="160px"
+                alt="Hands with a book"
+              />
+              <h4 className = "techniques__card-title">Два вида внимания</h4>
+              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li className = "techniques__cards-item">
+              <img
+                className="techniques__card-image"
+                src={attentionImage}
+                width="160px"
+                height="160px"
+                alt="Hands with a book"
+              />
+              <h4 className = "techniques__card-title">Два вида внимания</h4>
+              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li className = "techniques__cards-item">
+              <img
+                className="techniques__card-image"
+                src={attentionImage}
+                width="160px"
+                height="160px"
+                alt="Hands with a book"
+              />
+              <h4 className = "techniques__card-title">Два вида внимания</h4>
+              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li className = "techniques__cards-item">
+              <img
+                className="techniques__card-image"
+                src={attentionImage}
+                width="160px"
+                height="160px"
+                alt="Hands with a book"
+              />
+              <h4 className = "techniques__card-title">Два вида внимания</h4>
+              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li className = "techniques__cards-item">
+              <img
+                className="techniques__card-image"
+                src={attentionImage}
+                width="160px"
+                height="160px"
+                alt="Hands with a book"
+              />
+              <h4 className = "techniques__card-title">Два вида внимания</h4>
+              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+          </ul>
+      </section>
 
       <section className="description">
         <div className="description__two-columns">
@@ -57,8 +120,8 @@ const App = () => {
         </div>
       </section>
       <section className="digits">
-        <h2 className="digits__title">Цифры и факты</h2>
-        <h3 className="digits__subtitle">Про учебу и мозг</h3>
+        <h2 className="section-title">Цифры и факты</h2>
+        <h3 className="section-subtitle">Про учебу и мозг</h3>
         <table className="digits__table">
           <tr>
             <td>
@@ -111,8 +174,8 @@ const App = () => {
       <section className="feynman" height="890px">
         <h1 className="feynman__title">Метод Фейнмана</h1>
         <h2 className="feynman__subtitle">Выучить и не забыть.</h2>
-        <a href="https://en.wikipedia.org/wiki/Wiki" className="feynman__link">
-          Подробнее
+        <a href="https://en.wikipedia.org/wiki/Wiki" className="feynman__link  transparent-link">
+          Подробнее →
         </a>
       </section>
       <section className="kaufman">
@@ -183,17 +246,17 @@ const App = () => {
           </tr>
         </table>
         <img
-          className="kaufmanTriangle"
-          src={kaufmanTriangle}
+          className="kaufman__triangle"
+          src={triangleImage}
           height="877px"
           width="877px"
-          alt="Blue Triangle"
+          alt="Kaufman Triangle"
         />
-      </section>
+          </section>
       <footer className="footer">
-        <div className="columns">
-          <div className="column__content">
-            <div className="content__copyright">
+        <div className="footer__columns">
+          <div className="footer__content">
+            <div className="footer__content-column content__copyright">
               <img
                 className="footer__logo"
                 src={footerLogo}
@@ -203,30 +266,30 @@ const App = () => {
               />
               <p className="copyright__author">© Виктор Абанькин</p>
             </div>
-            <div className="column__content-info">
-              <p className="content__column-heading">О практикуме</p>
-              <div className="column-links">
-                <a href="google.com" className="footer__links">
+            <div className="footer__content-column content__info">
+              <p className="footer__heading">О Практикуме</p>
+              <div className="content__info-links">
+                <a href="https://google.com" className="footer__link transparent-link">
                   Главная
                 </a>
-                <a href="google.com" className="footer__links">
+                <a href="https://google.com" className="footer__link transparent-link">
                   Концепция
                 </a>
-                <a href="google.com" className="footer__links">
+                <a href="https://google.com" className="footer__link transparent-link">
                   Наставники
                 </a>
               </div>
             </div>
-            <div className="column__content-social">
-              <p className="content__social-heading">Соцсети</p>
-              <div className="column-links">
-                <a href="facebook.com" className="footer__social-links">
+            <div className="footer__content-column content_social">
+              <p className="footer__heading">Соцсети</p>
+              <div className="content__social-links">
+                <a href="https://facebook.com" className="footer__link transparent-link">
                   Facebook
                 </a>
-                <a href="vk.ru" className="footer__social-links">
+                <a href="https://vk.ru" className="footer__link transparent-link">
                   Вконтакте
                 </a>
-                <a href="instagram.com" className="footer__social-links">
+                <a href="https://instagram.com" className="footer__link transparent-link">
                   Instagram
                 </a>
               </div>
