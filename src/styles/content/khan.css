@@ -1,0 +1,55 @@
+.khan {
+    padding: 105px 0 0 0;
+    background-color: #f2f2f2;
+}
+
+.khan__content {
+    width:80%;
+    margin:auto;
+}
+
+.khan__subtitle {
+    line-height: 42px;
+    font-size: 30px;
+}
+
+.khan__title {
+    line-height: 1.15em;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+
+.khan__main-text {
+    line-height: 34px;
+    font-size: 24px;
+    width: 790px;
+    margin-bottom: 36px;
+}
+
+.khan__author {
+    line-height: 1.15em;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.khan__job {
+    line-height: 1.15em;
+    font-size: 24px;
+    margin: 0 0 68px 0;
+}
+
+.khan__book-container {
+    display:flex;
+}
+.khan__book {
+    object-position: top;
+    object-fit: cover;
+    margin-right: 48px;
+}
+.khan__link {
+    line-height: 42px;
+    font-size: 30px;
+    text-decoration: none;
+}

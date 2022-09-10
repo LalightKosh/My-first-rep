@@ -1,0 +1,12 @@
+.videos {
+    margin: auto;
+    height: 550px;
+}
+
+.videos__youtube {
+    text-align: center;
+}
+
+.videos__youtube-video {
+    margin: 0 20px 0 0;
+}

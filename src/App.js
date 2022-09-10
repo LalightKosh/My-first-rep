@@ -4,6 +4,18 @@ import footerLogo from "./images/logo_place_footer.svg";
 import headerImage from "./images/two_again.png";
 import triangleImage from "./images/kaufman-triangle.svg";
 import attentionImage from "./images/cards-attention.png";
+import competenceImage from "./images/cards-competence.png";
+import interlivingImage from "./images/cards-interliving.png";
+import questionImage from "./images/cards-question.png";
+import recallImage from "./images/cards-recall.png";
+import khanbookImage from "./images/khan-book.jpg";
+import arzamasLogo from "./images/resources-arzamas.svg";
+import n1Logo from "./images/resources-n1.svg";
+import polkaLogo from "./images/resources-polka.svg";
+import strelkaLogo from "./images/resources-strelka.svg";
+import facebookLogo from "./images/facebook_color_white.svg";
+import instagramLogo from "./images/instagram_color_white.svg";
+import vkLogo from "./images/vk_color_white.svg";
 
 const App = () => {
   return (
@@ -20,7 +32,10 @@ const App = () => {
         <p className="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="https://en.wikipedia.org/wiki/Wiki"  className="header__link transparent-link">
+          <a
+            href="https://en.wikipedia.org/wiki/Wiki"
+            className="header__link transparent-link"
+          >
             Узнать →
           </a>
         </p>
@@ -33,71 +48,8 @@ const App = () => {
         />
         <div class="header__square-pic" />
       </header>
-
-      <section className="techniques">
-        <h2 className="section-title">Техники обучения</h2>
-          <h3 className = "section-subtitle">Пять практик от Барбары Оакли</h3>
-          <ul className="techniques__cards">
-            <li className = "techniques__cards-item">
-              <img
-                className="techniques__card-image"
-                src={attentionImage}
-                width="160px"
-                height="160px"
-                alt="Hands with a book"
-              />
-              <h4 className = "techniques__card-title">Два вида внимания</h4>
-              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </li>
-            <li className = "techniques__cards-item">
-              <img
-                className="techniques__card-image"
-                src={attentionImage}
-                width="160px"
-                height="160px"
-                alt="Hands with a book"
-              />
-              <h4 className = "techniques__card-title">Два вида внимания</h4>
-              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </li>
-            <li className = "techniques__cards-item">
-              <img
-                className="techniques__card-image"
-                src={attentionImage}
-                width="160px"
-                height="160px"
-                alt="Hands with a book"
-              />
-              <h4 className = "techniques__card-title">Два вида внимания</h4>
-              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </li>
-            <li className = "techniques__cards-item">
-              <img
-                className="techniques__card-image"
-                src={attentionImage}
-                width="160px"
-                height="160px"
-                alt="Hands with a book"
-              />
-              <h4 className = "techniques__card-title">Два вида внимания</h4>
-              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </li>
-            <li className = "techniques__cards-item">
-              <img
-                className="techniques__card-image"
-                src={attentionImage}
-                width="160px"
-                height="160px"
-                alt="Hands with a book"
-              />
-              <h4 className = "techniques__card-title">Два вида внимания</h4>
-              <p className = "techniques__card-description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-            </li>
-          </ul>
-      </section>
-
       <section className="description">
-        <div className="description__two-columns">
+        <div className="two-columns">
           <h3 className="description__header">Главные проблемы в обучении</h3>
           <div className="description__main-text">
             <p className="description__text">
@@ -119,6 +71,138 @@ const App = () => {
           </div>
         </div>
       </section>
+
+      <section className="techniques">
+        <h2 className="section-title">Техники обучения</h2>
+        <h3 className="section-subtitle">Пять практик от Барбары Оакли</h3>
+        <ul className="techniques__cards">
+          <li className="techniques__cards-item">
+            <img
+              className="techniques__card-image"
+              src={attentionImage}
+              width="160px"
+              height="160px"
+              alt="Hands with a book"
+            />
+            <h4 className="techniques__card-title">Два вида внимания</h4>
+            <p className="techniques__card-description">
+              Глубокие знания возникают, если чередовать сфокусированное и
+              рассеянное мышление.
+            </p>
+          </li>
+          <li className="techniques__cards-item">
+            <img
+              className="techniques__card-image"
+              src={recallImage}
+              width="160px"
+              height="160px"
+              alt="A hand holding a pile of books"
+            />
+            <h4 className="techniques__card-title">Recall</h4>
+            <p className="techniques__card-description">
+              Вспоминайте изученное — это позволит соединить разрозненные порции
+              памяти.
+            </p>
+          </li>
+          <li className="techniques__cards-item">
+            <img
+              className="techniques__card-image"
+              src={interlivingImage}
+              width="160px"
+              height="160px"
+              alt="A bridge"
+            />
+            <h4 className="techniques__card-title">Интерливинг</h4>
+            <p className="techniques__card-description">
+              Изучайте несколько навыков одновременно, они обогащают друг друга.
+            </p>
+          </li>
+          <li className="techniques__cards-item">
+            <img
+              className="techniques__card-image"
+              src={questionImage}
+              width="160px"
+              height="160px"
+              alt="A person in a museum"
+            />
+            <h4 className="techniques__card-title">Вопросы</h4>
+            <p className="techniques__card-description">
+              Слушая преподавателя, придумывайте хороший вопрос, который вас
+              действительно волнует.
+            </p>
+          </li>
+          <li className="techniques__cards-item">
+            <img
+              className="techniques__card-image"
+              src={competenceImage}
+              width="160px"
+              height="160px"
+              alt="A greek statue"
+            />
+            <h4 className="techniques__card-title">Иллюзия компетентности</h4>
+            <p className="techniques__card-description">
+              Повторите про себя, запишите, расскажите другу: вам только
+              кажется, что вы владеете новой темой.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section className="videos">
+        <h2 className="section-title">Видео на TED</h2>
+        <h3 className="section-subtitle">
+          Для тех, кто любит прокрастинировать
+        </h3>
+        <div className="videos__youtube">
+          <iframe
+            className="videos__youtube-video"
+            width="515"
+            height="316"
+            src="https://www.youtube.com/embed/5MgBikgcWnY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            className="videos__youtube-video"
+            width="515"
+            height="316"
+            src="https://www.youtube.com/embed/arj7oStGLkU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section className="oakley">
+        <div className="two-columns">
+          <h3 className="oakley__header">История Барбары Оакли.</h3>
+          <div className="oakley__main-text">
+            <p className="oakley__text">
+              С детства Барбаре не давалась математика. Она считала себя
+              законченным гуманитарием, причём далеко не самым умным. В армии
+              она изучала русский язык, чтобы получить надбавку, да так успешно,
+              что её выдвинули в командиры. Но для продвижения по службе нужно
+              было сдавать математику. И тогда Барбара придумала свой подход к
+              точным наукам. Оказалось, если вам что-то «плохо даётся», ваши
+              добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с
+              первого взгляда.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="feynman" height="890px">
+        <h1 className="feynman__title">Метод Фейнмана</h1>
+        <h2 className="feynman__subtitle">Выучить и не забыть.</h2>
+        <a
+          href="https://en.wikipedia.org/wiki/Wiki"
+          className="feynman__link  transparent-link"
+        >
+          Подробнее →
+        </a>
+      </section>
+
       <section className="digits">
         <h2 className="section-title">Цифры и факты</h2>
         <h3 className="section-subtitle">Про учебу и мозг</h3>
@@ -171,12 +255,32 @@ const App = () => {
           </tr>
         </table>
       </section>
-      <section className="feynman" height="890px">
-        <h1 className="feynman__title">Метод Фейнмана</h1>
-        <h2 className="feynman__subtitle">Выучить и не забыть.</h2>
-        <a href="https://en.wikipedia.org/wiki/Wiki" className="feynman__link  transparent-link">
-          Подробнее →
-        </a>
+      <section className="khan">
+        <div className="khan__content">
+          <subtitle className="khan__subtitle">Салман Хан</subtitle>
+          <h3 className="khan__title">Весь мир — школа</h3>
+          <p className="khan__main-text">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+            студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
+            всем, кто занимается образованием — так учащиеся повсюду смогут
+            получить навыки и знания, которые приносят успех в школе, карьере и
+            жизни.
+          </p>
+          <author className="khan__author">Джордж Лукас</author>
+          <p className="khan__job">Кинорежиссер, продюсер</p>
+          <div className="khan__book-container">
+            <img
+              className="khan__book"
+              src={khanbookImage}
+              width="620px"
+              height="608px"
+              alt="The book of Salman Khan"
+            />
+            <a className="khan__link transparent-link" href="https://ozon.ru/">
+              Купить книгу →
+            </a>
+          </div>
+        </div>
       </section>
       <section className="kaufman">
         <h2 className="kaufman__title">Принципы обучения</h2>
@@ -252,7 +356,51 @@ const App = () => {
           width="877px"
           alt="Kaufman Triangle"
         />
-          </section>
+      </section>
+      <section className="resources">
+        <h2 className="section-title">Полезные ресурсы</h2>
+        <h3 className="section-subtitle">
+          Больше материалов о техниках и лайфхаках обучения
+        </h3>
+        <ul className="resources__logos" width="1100px">
+          <a href="#">
+            <img
+              className="resources__arzamas"
+              src={arzamasLogo}
+              height="38px"
+              width="270px"
+              alt="Logo of Arzamas"
+            />
+          </a>
+          <a href="#">
+            <img
+              className="resources__n1"
+              src={n1Logo}
+              height="38px"
+              width="270px"
+              alt="Logo of N1"
+            />
+          </a>
+          <a href="#">
+            <img
+              className="resources__polka"
+              src={polkaLogo}
+              height="38px"
+              width="270px"
+              alt="Logo of Polka"
+            />
+          </a>
+          <a href="#">
+            <img
+              className="resources__strelka"
+              src={strelkaLogo}
+              height="38px"
+              width="270px"
+              alt="Logo of Strelka"
+            />
+          </a>
+        </ul>
+      </section>
       <footer className="footer">
         <div className="footer__columns">
           <div className="footer__content">
@@ -269,13 +417,22 @@ const App = () => {
             <div className="footer__content-column content__info">
               <p className="footer__heading">О Практикуме</p>
               <div className="content__info-links">
-                <a href="https://google.com" className="footer__link transparent-link">
+                <a
+                  href="https://google.com"
+                  className="footer__link transparent-link"
+                >
                   Главная
                 </a>
-                <a href="https://google.com" className="footer__link transparent-link">
+                <a
+                  href="https://google.com"
+                  className="footer__link transparent-link"
+                >
                   Концепция
                 </a>
-                <a href="https://google.com" className="footer__link transparent-link">
+                <a
+                  href="https://google.com"
+                  className="footer__link transparent-link"
+                >
                   Наставники
                 </a>
               </div>
@@ -283,13 +440,43 @@ const App = () => {
             <div className="footer__content-column content_social">
               <p className="footer__heading">Соцсети</p>
               <div className="content__social-links">
-                <a href="https://facebook.com" className="footer__link transparent-link">
+                <a
+                  href="https://facebook.com"
+                  className="footer__link transparent-link"
+                >
+                  <img
+                    className="footer__logo"
+                    src={facebookLogo}
+                    width="16px"
+                    height="16px"
+                    alt="Facebook Logo"
+                  />
                   Facebook
                 </a>
-                <a href="https://vk.ru" className="footer__link transparent-link">
+                <a
+                  href="https://vk.ru"
+                  className="footer__link transparent-link"
+                >
+                  <img
+                    className="footer__logo"
+                    src={instagramLogo}
+                    width="16px"
+                    height="16px"
+                    alt="Instagram Logo"
+                  />
                   Вконтакте
                 </a>
-                <a href="https://instagram.com" className="footer__link transparent-link">
+                <a
+                  href="https://instagram.com"
+                  className="footer__link transparent-link"
+                >
+                  <img
+                    className="footer__logo"
+                    src={vkLogo}
+                    width="16px"
+                    height="16px"
+                    alt="VK Logo"
+                  />
                   Instagram
                 </a>
               </div>
