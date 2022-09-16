@@ -35,6 +35,7 @@ const App = () => {
           <a
             href="https://en.wikipedia.org/wiki/Wiki"
             className="header__link transparent-link"
+            target="_blank"
           >
             Узнать →
           </a>
@@ -198,6 +199,7 @@ const App = () => {
         <a
           href="https://en.wikipedia.org/wiki/Wiki"
           className="feynman__link  transparent-link"
+          target="_blank"
         >
           Подробнее →
         </a>
@@ -208,49 +210,51 @@ const App = () => {
         <h3 className="section-subtitle">Про учебу и мозг</h3>
         <table className="digits__table">
           <tr>
-            <td>
-              <h4 className="table__title">86 миллиардов</h4>
-              <p className="table__text">Число нейронов в мозге человека</p>
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">86 миллиардов</h4>
+              <p className="digits__table-text">
+                Число нейронов в мозге человека
+              </p>
             </td>
-            <td>
-              <h4 className="table__title">2.1 миллиарда</h4>
-              <p className="table__text">
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">2.1 миллиарда</h4>
+              <p className="digits__table-text">
                 Число нуждающихся в повышении квалификации
               </p>
               <p className="bank">Всемирный Банк, 2017</p>
             </td>
-            <td>
-              <h4 className="table__title">1000 терабайт</h4>
-              <p className="table__text">Объём памяти человека</p>
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">1000 терабайт</h4>
+              <p className="digits__table-text">Объём памяти человека</p>
             </td>
-            <td>
-              <h4 className="table__title">500 триллионов</h4>
-              <p className="table__text">
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">500 триллионов</h4>
+              <p className="digits__table-text">
                 Число ответственных за обучение нервных синапсов у взрослого
                 человека
               </p>
             </td>
           </tr>
           <tr>
-            <td>
-              <h4 className="table__title">420 миллионов</h4>
-              <p className="table__text">
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">420 миллионов</h4>
+              <p className="digits__table-text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
               <p className="bank">Всемирный Банк, 2017</p>
             </td>
-            <td>
-              <h4 className="table__title">17–20 лет</h4>
-              <p className="table__text">Пик обучаемости</p>
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">17–20 лет</h4>
+              <p className="digits__table-text">Пик обучаемости</p>
             </td>
-            <td>
-              <h4 className="table__title">1885 год</h4>
-              <p className="table__text">Открытие кривой забывания</p>
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">1885 год</h4>
+              <p className="digits__table-text">Открытие кривой забывания</p>
             </td>
-            <td>
-              <h4 className="table__title">1889 год</h4>
-              <p className="table__text">Открытие условного рефлекса</p>
+            <td className="digits__table-cell">
+              <h4 className="digits__table-title">1889 год</h4>
+              <p className="digits__table-text">Открытие условного рефлекса</p>
             </td>
           </tr>
         </table>
@@ -276,7 +280,11 @@ const App = () => {
               height="608px"
               alt="The book of Salman Khan"
             />
-            <a className="khan__link transparent-link" href="https://ozon.ru/">
+            <a
+              className="khan__link transparent-link"
+              href="https://ozon.ru/"
+              target="_blank"
+            >
               Купить книгу →
             </a>
           </div>
@@ -363,7 +371,11 @@ const App = () => {
           Больше материалов о техниках и лайфхаках обучения
         </h3>
         <ul className="resources__logos" width="1100px">
-          <a href="#">
+          <a
+            href="https://arzamas.academy/"
+            className="transparent-link"
+            target="_blank"
+          >
             <img
               className="resources__arzamas"
               src={arzamasLogo}
@@ -372,7 +384,11 @@ const App = () => {
               alt="Logo of Arzamas"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://nplus1.ru/"
+            className="transparent-link"
+            target="_blank"
+          >
             <img
               className="resources__n1"
               src={n1Logo}
@@ -381,7 +397,11 @@ const App = () => {
               alt="Logo of N1"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://polka.academy/"
+            className="transparent-link"
+            target="_blank"
+          >
             <img
               className="resources__polka"
               src={polkaLogo}
@@ -390,7 +410,11 @@ const App = () => {
               alt="Logo of Polka"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://strelka.com/ru/"
+            className="transparent-link"
+            target="_blank"
+          >
             <img
               className="resources__strelka"
               src={strelkaLogo}
@@ -420,18 +444,21 @@ const App = () => {
                 <a
                   href="https://google.com"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   Главная
                 </a>
                 <a
                   href="https://google.com"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   Концепция
                 </a>
                 <a
                   href="https://google.com"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   Наставники
                 </a>
@@ -443,6 +470,7 @@ const App = () => {
                 <a
                   href="https://facebook.com"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   <img
                     className="footer__logo"
@@ -456,6 +484,7 @@ const App = () => {
                 <a
                   href="https://vk.ru"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   <img
                     className="footer__logo"
@@ -469,6 +498,7 @@ const App = () => {
                 <a
                   href="https://instagram.com"
                   className="footer__link transparent-link"
+                  target="_blank"
                 >
                   <img
                     className="footer__logo"

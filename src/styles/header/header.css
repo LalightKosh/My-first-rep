@@ -57,6 +57,7 @@
 
 .header__link {
   margin-left: 5px;
+  text-decoration: none;
 }
 
 @keyframes spin {
