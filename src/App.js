@@ -488,10 +488,10 @@ const App = () => {
                 >
                   <img
                     className="footer__logo"
-                    src={instagramLogo}
+                    src={vkLogo}
                     width="16px"
                     height="16px"
-                    alt="Instagram Logo"
+                    alt="VK Logo"
                   />
                   Вконтакте
                 </a>
@@ -502,10 +502,10 @@ const App = () => {
                 >
                   <img
                     className="footer__logo"
-                    src={vkLogo}
+                    src={instagramLogo}
                     width="16px"
                     height="16px"
-                    alt="VK Logo"
+                    alt="Instagram Logo"
                   />
                   Instagram
                 </a>
